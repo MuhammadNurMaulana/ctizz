@@ -26,6 +26,7 @@ export default async function HomeComponents() {
           <button type="submit">sign-in</button>
         </form>
       )}
+      <h1>hello</h1>
     </div>
   )
 }
