@@ -1,12 +1,15 @@
-import { hash } from "bcryptjs"
-import { db } from "../db"
+"use server"
 
-export const register = async (body: { firstName: string; lastName: string; email: string; password: string }) => {
+import bcrypt from "bcryptjs"
+import { db } from "../db"
+import { getUserByEmail } from "./getUserByEmail"
+
+export const register = async (body: any) => {
   const { firstName, lastName, email, password } = body
 
-  const hashPass = await hash(password, 10)
+  const hashPass = await bcrypt.hash(password, 10)
 
-  const existUser = await db.user.findUnique({ where: { email } })
+  const existUser = await getUserByEmail(email)
 
   if (existUser) return { message: "User already exist" }
 
