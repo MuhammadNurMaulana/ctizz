@@ -1,19 +1,19 @@
 import { signIn } from "@/lib/auth/auth"
-import { FcGoogle } from "react-icons/fc"
+import { FaGithub } from "react-icons/fa6"
 
-export default function LoginGoogle() {
+export default function LoginGithub() {
   return (
     <form
       className="px-4"
       action={async () => {
         "use server"
-        await signIn("google", {
+        await signIn("github", {
           redirectTo: "/",
         })
       }}
     >
       <button type="submit" className="w-full px-4 py-2 grid justify-center bg-neutral-300 hover:bg-neutral-400 rounded">
-        <FcGoogle size={30} />
+        <FaGithub size={30} />
       </button>
     </form>
   )

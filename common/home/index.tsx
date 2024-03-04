@@ -3,7 +3,7 @@ import { Navbar } from "../navbar"
 
 export default async function HomeComponents() {
   const session = await auth()
-  console.log(session)
+  console.log(session?.user)
   return (
     <div>
       <Navbar />
@@ -11,7 +11,9 @@ export default async function HomeComponents() {
         <form
           action={async () => {
             "use server"
-            await signOut()
+            await signOut({
+              redirectTo: "/auth/login",
+            })
           }}
         >
           <button type="submit">sign-out</button>

@@ -3,6 +3,7 @@ import credentials from "next-auth/providers/credentials"
 import google from "next-auth/providers/google"
 import { compare } from "bcryptjs"
 import { getUserByEmail } from "./getUserByEmail"
+import github from "next-auth/providers/github"
 
 const config = {
   session: { strategy: "jwt" },
@@ -14,6 +15,12 @@ const config = {
       clientId: process.env.GOOGLE_ID,
       clientSecret: process.env.GOOGLE_SECRET,
     }),
+
+    github({
+      clientId: process.env.GITHUB_ID,
+      clientSecret: process.env.GITHUB_SECRET,
+    }),
+
     credentials({
       name: "Credentials",
 
@@ -49,8 +56,6 @@ const config = {
         token.firstName = user.firstName
         token.lastName = user.lastName
         token.email = user.email
-        token.image = user.image
-        token.name = user.name
       }
       return token
     },
@@ -60,8 +65,6 @@ const config = {
       if ("lastName" in token) session.lastName = token.lastName
       if ("password" in token) session.password = token.password
       if ("email" in token) session.email = token.email
-      if ("image" in token) session.image = token.image
-      if ("name" in token) session.name = token.name
       return session
     },
   },

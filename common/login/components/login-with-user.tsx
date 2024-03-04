@@ -3,21 +3,34 @@ import Input from "@/components/form-components/input"
 import Label from "@/components/form-components/label"
 import { login } from "@/lib/auth/login"
 import Link from "next/link"
-import { FormEvent } from "react"
+import { FormEvent, useState } from "react"
 
 export default function LoginWithUser() {
+  const [error, setError] = useState("")
+
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 
     const formData = new FormData(e.currentTarget)
 
-    const body = {
-      email: formData.get("email"),
-      password: formData.get("password"),
-    }
+    if (formData.get("email") == null || formData.get("email") == "" || formData.get("password") == null || formData.get("password") == "") {
+      setError("Please fill in the form")
+    } else {
+      const body = {
+        email: formData.get("email"),
+        password: formData.get("password"),
+      }
 
-    const res = login(body)
-    console.log(res)
+      try {
+        const res = login(body)
+
+        if (res == Promise.resolve(res)) {
+          setError("Invalid email or password")
+        }
+      } catch (error) {
+        setError("Invalid email or password")
+      }
+    }
   }
   return (
     <form className="mt-4 p-4" onSubmit={handleSubmit}>
@@ -29,6 +42,8 @@ export default function LoginWithUser() {
         <Label label="Password" name="password" />
         <Input placeholder="Enter your password" type="password" name="password" />
       </div>
+
+      {error && <p className="text-red-500 bg-neutral-300 p-3 text-center my-4 font-bold font-serif text-sm">{error}</p>}
 
       <button type="submit" className="w-full p-3 my-4 text-bold font-serif bg-neutral-700 rounded hover:bg-neutral-800 text-white">
         Login
