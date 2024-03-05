@@ -3,24 +3,39 @@ import Input from "@/components/form-components/input"
 import Label from "@/components/form-components/label"
 import { register } from "@/lib/auth/register"
 import Link from "next/link"
-import React, { FormEvent } from "react"
+import React, { FormEvent, useState } from "react"
 
 export default function FormRegister() {
+  const [error, setError] = useState("")
+
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 
     const formData = new FormData(e.currentTarget)
 
-    const body = {
-      email: formData.get("email"),
-      firstName: formData.get("firstName"),
-      lastName: formData.get("lastName"),
-      password: formData.get("password"),
+    if (
+      formData.get("email") == null ||
+      formData.get("email") == "" ||
+      formData.get("firstName") == null ||
+      formData.get("firstName") == "" ||
+      formData.get("lastName") == null ||
+      formData.get("lastName") == "" ||
+      formData.get("password") == null ||
+      formData.get("password") == ""
+    ) {
+      setError("Please fill in the form")
+    } else {
+      const body = {
+        email: formData.get("email"),
+        firstName: formData.get("firstName"),
+        lastName: formData.get("lastName"),
+        password: formData.get("password"),
+      }
+
+      const cek = register(body)
+
+      cek.then((res) => setError(res.message))
     }
-
-    const cek = register(body)
-
-    console.log(cek.then((res) => console.log(res.message)))
   }
   return (
     <form className="mt-4 p-4" onSubmit={handleSubmit}>
@@ -42,6 +57,8 @@ export default function FormRegister() {
         <Label label="Password" name="password" />
         <Input placeholder="Enter your password" type="password" name="password" />
       </div>
+
+      {error && <p className="text-red-500 bg-neutral-300 p-3 text-center my-4 font-bold font-serif text-sm">{error}</p>}
 
       <button type="submit" className="w-full p-3 my-4 text-bold font-serif bg-neutral-700 rounded hover:bg-neutral-800 text-white">
         Register

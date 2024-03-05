@@ -6,9 +6,9 @@ import Link from "next/link"
 import { FormEvent, useState } from "react"
 
 export default function LoginWithUser() {
-  const [error, setError] = useState("")
+  const [error, setError] = useState<string | undefined>("")
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 
     const formData = new FormData(e.currentTarget)
@@ -22,13 +22,9 @@ export default function LoginWithUser() {
       }
 
       try {
-        const res = login(body)
-
-        if (res == Promise.resolve(res)) {
-          setError("Invalid email or password")
-        }
+        await login(body)
       } catch (error) {
-        setError("Invalid email or password")
+        setError("Email or password is incorrect")
       }
     }
   }

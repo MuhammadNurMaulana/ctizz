@@ -2,11 +2,14 @@ import NextAuth, { NextAuthConfig } from "next-auth"
 import credentials from "next-auth/providers/credentials"
 import google from "next-auth/providers/google"
 import { compare } from "bcryptjs"
-import { getUserByEmail } from "./getUserByEmail"
 import github from "next-auth/providers/github"
+import { db } from "../db"
 
 const config = {
-  session: { strategy: "jwt" },
+  session: {
+    strategy: "jwt",
+    maxAge: 2 * 24 * 60 * 60,
+  },
 
   secret: process.env.NEXTAUTH_SECRET,
 
@@ -23,26 +26,22 @@ const config = {
 
     credentials({
       name: "Credentials",
-
       credentials: {
         email: {},
         password: {},
       },
-
       async authorize(credentials) {
-        const { email, password } = credentials as {
-          email: string
-          password: string
-        }
+        const { email, password } = credentials as { email: string; password: string }
 
         if (email && password) {
-          const user = await getUserByEmail(email)
+          const user = await db.user.findUnique({ where: { email } })
 
           if (!user || !user.password) return null
 
-          const comparePass = await compare(password, user.password)
+          const isValid = await compare(password, user.password)
+          if (isValid) return user
 
-          if (comparePass) return user
+          return null
         }
 
         return null
@@ -53,18 +52,27 @@ const config = {
   callbacks: {
     async jwt({ token, user }: any) {
       if (user) {
+        token.id = user.id
         token.firstName = user.firstName
         token.lastName = user.lastName
         token.email = user.email
       }
+
       return token
     },
 
     async session({ session, token }: any) {
-      if ("firstName" in token) session.firstName = token.firstName
-      if ("lastName" in token) session.lastName = token.lastName
-      if ("password" in token) session.password = token.password
-      if ("email" in token) session.email = token.email
+      const user = await db.user.findUnique({ where: { id: token.id || { email: token.email } } })
+
+      if (user) {
+        session.user = {
+          id: user.id,
+          firstName: user.firstName,
+          lastName: user.lastName,
+          email: user.email,
+        }
+      }
+
       return session
     },
   },

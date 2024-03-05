@@ -8,16 +8,19 @@ export default async function HomeComponents() {
     <div>
       <Navbar />
       {session && session.user ? (
-        <form
-          action={async () => {
-            "use server"
-            await signOut({
-              redirectTo: "/auth/login",
-            })
-          }}
-        >
-          <button type="submit">sign-out</button>
-        </form>
+        <div>
+          <h1>{JSON.stringify(session.user)}</h1>
+          <form
+            action={async () => {
+              "use server"
+              await signOut({
+                redirectTo: "/auth/login",
+              })
+            }}
+          >
+            <button type="submit">sign-out</button>
+          </form>
+        </div>
       ) : (
         <form
           action={async () => {
