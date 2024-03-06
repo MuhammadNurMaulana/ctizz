@@ -24,13 +24,13 @@ export default function DiscountSlideHome() {
         className="h-full"
       >
         <SwiperSlide>
-          <div className="grid grid-cols-2">
+          <div className="flex flex-col-reverse md:grid md:grid-cols-2">
             <div className="flex items-center justify-center">
               <div className="w-[80%] grid gap-2">
-                <h2 className={`text-3xl ${playfair.className} font-semibold`}>Classic Exclusive</h2>
-                <h1 className={`text-5xl ${playfair.className} font-bold`}>Women`s Collection</h1>
+                <h2 className={`text-xl md:text-3xl ${playfair.className} font-semibold`}>Classic Exclusive</h2>
+                <h1 className={`text-2xl md:text-5xl ${playfair.className} font-bold`}>Women`s Collection</h1>
                 <p>UPTO 40% OFF</p>
-                <button className="bg-neutral-700 text-white font-serif text-sm px-4 py-1 max-w-max">Shop Now </button>
+                <button className="bg-neutral-700 text-white font-serif text-sm px-4 py-1 max-w-max rounded">Shop Now </button>
               </div>
             </div>
             <Image
@@ -45,13 +45,13 @@ export default function DiscountSlideHome() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="grid grid-cols-2">
+          <div className="flex flex-col-reverse md:grid md:grid-cols-2">
             <div className="flex items-center justify-center">
               <div className="w-[80%] grid gap-2">
-                <h2 className={`text-3xl ${playfair.className} font-semibold`}>Classic Exclusive</h2>
-                <h1 className={`text-5xl ${playfair.className} font-bold`}>Women`s Collection</h1>
+                <h2 className={`text-xl md:text-3xl ${playfair.className} font-semibold`}>Classic Exclusive</h2>
+                <h1 className={`text-2xl md:text-5xl ${playfair.className} font-bold`}>Women`s Collection</h1>
                 <p>UPTO 40% OFF</p>
-                <button className="bg-neutral-700 text-white font-serif text-sm px-4 py-1 max-w-max">Shop Now </button>
+                <button className="bg-neutral-700 text-white font-serif text-sm px-4 py-1 max-w-max rounded">Shop Now </button>
               </div>
             </div>
             <Image
@@ -66,13 +66,13 @@ export default function DiscountSlideHome() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="grid grid-cols-2">
+          <div className="flex flex-col-reverse md:grid md:grid-cols-2">
             <div className="flex items-center justify-center">
               <div className="w-[80%] grid gap-2">
-                <h2 className={`text-3xl ${playfair.className} font-semibold`}>Classic Exclusive</h2>
-                <h1 className={`text-5xl ${playfair.className} font-bold`}>Women`s Collection</h1>
+                <h2 className={`text-xl md:text-3xl ${playfair.className} font-semibold`}>Classic Exclusive</h2>
+                <h1 className={`text-2xl md:text-5xl ${playfair.className} font-bold`}>Women`s Collection</h1>
                 <p>UPTO 40% OFF</p>
-                <button className="bg-neutral-700 text-white font-serif text-sm px-4 py-1 max-w-max">Shop Now </button>
+                <button className="bg-neutral-700 text-white font-serif text-sm px-4 py-1 max-w-max rounded">Shop Now </button>
               </div>
             </div>
             <Image
