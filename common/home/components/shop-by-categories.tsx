@@ -1,8 +1,6 @@
 "use client"
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react"
 
-// Import Swiper styles
 import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/navigation"
@@ -12,14 +10,21 @@ import Image from "next/image"
 
 export default function MySwiperComponent() {
   return (
-    <div className="my-28 w-[85%] mx-auto">
+    <div className="my-12 lg:my-28 w-[85%] mx-auto">
       <h1 className="mb-4 text-xl md:text-4xl font-mono font-semibold">Shop By Categories</h1>
       <Swiper
         pagination={{
           type: "progressbar",
         }}
         modules={[Pagination, Navigation]}
-        slidesPerView={window.innerWidth < 640 ? 1 : window.innerWidth < 768 ? 2 : window.innerWidth < 1024 ? 2 : 4}
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 4,
+          },
+        }}
       >
         {dataCat.map((item, idx) => (
           <SwiperSlide key={idx} style={{ position: "relative" }}>
