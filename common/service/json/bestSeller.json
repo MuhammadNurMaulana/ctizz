@@ -7,7 +7,9 @@
     "rating": {
       "stars": 5,
       "count": 600
-    }
+    },
+    "discount": "-60%",
+    "sold": "1RB+"
   },
   {
     "id": "dasdUq123dasq",
@@ -17,7 +19,9 @@
     "rating": {
       "stars": 4.9,
       "count": 200
-    }
+    },
+    "discount": "-79%",
+    "sold": "500+"
   },
   {
     "id": "spda611QQSS",
@@ -27,7 +31,9 @@
     "rating": {
       "stars": 4.5,
       "count": 1000
-    }
+    },
+    "discount": "-50%",
+    "sold": "2RB+"
   },
   {
     "id": "YSTA12lsdsas",
@@ -37,7 +43,9 @@
     "rating": {
       "stars": 4.7,
       "count": 5000
-    }
+    },
+    "discount": "-85%",
+    "sold": "20RB+"
   },
   {
     "id": "ERstqwlqksdsa",
@@ -47,7 +55,9 @@
     "rating": {
       "stars": 4.9,
       "count": 10000
-    }
+    },
+    "discount": "-44%",
+    "sold": "50RB+"
   },
   {
     "id": "qwweeq12099Q",
@@ -57,7 +67,9 @@
     "rating": {
       "stars": 4.7,
       "count": 3000
-    }
+    },
+    "discount": "-35%",
+    "sold": "5RB+"
   },
   {
     "id": "UqKja873hakdsax",
@@ -67,7 +79,9 @@
     "rating": {
       "stars": 4.9,
       "count": 12000
-    }
+    },
+    "discount": "-78%",
+    "sold": "100RB+"
   },
   {
     "id": "kjalasASASA17653",
@@ -77,7 +91,9 @@
     "rating": {
       "stars": 4.9,
       "count": 1530
-    }
+    },
+    "discount": "-66%",
+    "sold": "4.5RB+"
   },
   {
     "id": "lorResquhs144hv",
@@ -87,7 +103,9 @@
     "rating": {
       "stars": 4.8,
       "count": 3000
-    }
+    },
+    "discount": "-55%",
+    "sold": "8RB+"
   },
   {
     "id": "DoSasaslqkq",
@@ -97,6 +115,8 @@
     "rating": {
       "stars": 4.6,
       "count": 50000
-    }
+    },
+    "discount": "-73%",
+    "sold": "200RB+"
   }
 ]
