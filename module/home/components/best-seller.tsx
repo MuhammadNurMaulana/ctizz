@@ -4,7 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 export default async function BestSeller() {
-  //   const bestProduct = await GetApi(`${process.env.GET_FETCH_API}/api/bestSeller`)
+  const bestProduct = await GetApi(`${process.env.GET_FETCH_API}/api/bestSeller`)
 
   const formatPrice = new Intl.NumberFormat("id-ID", {
     style: "currency",
@@ -14,7 +14,7 @@ export default async function BestSeller() {
   return (
     <div className="my-12 lg:my-28 md:w-[85%] mx-auto">
       <h1 className="mb-4 text-xl md:text-4xl font-mono font-semibold px-8 md:px-0">Produk Terlaris</h1>
-      {/* 
+
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
         {bestProduct.data.map((item: BestSeller) => (
           <Link href={item.id} key={item.id}>
@@ -34,7 +34,7 @@ export default async function BestSeller() {
             </div>
           </Link>
         ))}
-      </div> */}
+      </div>
     </div>
   )
 }
