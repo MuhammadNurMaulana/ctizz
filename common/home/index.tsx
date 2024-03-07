@@ -12,7 +12,7 @@ export default async function HomeComponents() {
 
       <DiscountSlideHome />
 
-      <h1>hello</h1>
+      <h1>hello Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, reprehenderit!</h1>
     </div>
   )
 }

@@ -1,5 +1,5 @@
-import RoutesToLogin from "./components/routes-to-login"
 import NavMenu from "./components/nav-menu"
+import RoutesToLogin from "./components/routes-to-login"
 
 export function Navbar() {
   return (
