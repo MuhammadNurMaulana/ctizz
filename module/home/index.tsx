@@ -6,7 +6,6 @@ import BestSeller from "./components/best-seller"
 
 export default async function HomeComponents() {
   const session = await auth()
-  console.log(session?.user)
   return (
     <div className="w-full">
       <Navbar />
