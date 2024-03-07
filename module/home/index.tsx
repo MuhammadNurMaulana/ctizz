@@ -1,6 +1,5 @@
-import { auth, signIn, signOut } from "@/lib/auth/auth"
+import { auth } from "@/lib/auth/auth"
 import { Navbar } from "../navbar"
-import Image from "next/image"
 import DiscountSlideHome from "./components/discount-slide"
 import ShopCategories from "./components/shop-by-categories"
 

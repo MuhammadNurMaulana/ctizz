@@ -1,4 +1,4 @@
-import RegisterComponents from "@/common/register"
+import RegisterComponents from "@/module/register"
 
 export default function Register() {
   return <RegisterComponents />
