@@ -24,7 +24,7 @@ export default function DealsTimer() {
 
   return (
     <div className="md:w-[85%] mx-auto rounded-3xl overflow-hidden">
-      <div className="flex flex-col-reverse md:grid md:grid-cols-2">
+      <div className="flex flex-col-reverse lg:grid lg:grid-cols-2">
         <div className={`bg-[#DBEAF1] flex flex-col gap-4 p-12 ${playfair.className}`}>
           <h1 className="font-semibold md:text-3xl">Promo Bulan Ini</h1>
           <p className="text-neutral-950 font-semibold text-sm">

@@ -1,0 +1,47 @@
+[
+  {
+    "image": "https://img.freepik.com/free-photo/front-view-man-posing_23-2148364843.jpg?t=st=1709821068~exp=1709824668~hmac=fd56eced32ccf228ec930f06286974a9c7dcaa55185258fc71be59c0639eae2e&w=360",
+    "name": "Antonio",
+    "job": "Co-Founder"
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/caucasian-young-woman-s-close-up-portrait-red-studio_155003-18973.jpg?t=st=1709821221~exp=1709824821~hmac=c1c4becd09db6df65891837fc1f2c1b0ba6c5e6f4b15f4ec8c3f97b50c9aff4d&w=360",
+    "name": "Lisa",
+    "job": "Model"
+  },
+  {
+    "image": "https://img.freepik.com/premium-photo/beautiful-young-asian-woman-with-clean-fresh-skin-white-background_264197-28532.jpg?w=360",
+    "name": "Alice",
+    "job": "Artist"
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/closeup-portrait-young-asian-businesswoman_1262-1510.jpg?t=st=1709821297~exp=1709824897~hmac=e452d6999266cd1a9d14b9f196f448fffde70f5cbf3145f99708c9231df55145&w=360",
+    "name": "Linda",
+    "job": "Businesswoman"
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/happy-business-man-standing-smiling-against-red-wall_155003-9367.jpg?t=st=1709821388~exp=1709824988~hmac=dbd9a3b593df2d9d7bf11627fdde93c282c845819511e426ccaa8ed5c07efb00&w=360",
+    "name": "Jin",
+    "job": "Businessman"
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/front-view-man-wearing-white-top_23-2148364882.jpg?t=st=1709821458~exp=1709825058~hmac=a140e6c384cf53a5fb28c9c5a232d7cf93a310d27ca1e1890d1c26a4196056ec&w=360",
+    "name": "Robert",
+    "job": "Fullstack Developer"
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/handsome-asian-man-posing_23-2149038616.jpg?t=st=1709821525~exp=1709825125~hmac=e3ea760b6f4995cbc45ad8404544acda890d90c684f17eb5e0c1c4108d4c7b57&w=360",
+    "name": "Kelra",
+    "job": "Actor"
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/young-man-wearing-chain-necklace_23-2149490504.jpg?t=st=1709821569~exp=1709825169~hmac=fe797bfd2f220db22c7a7bd0b67b680e8e517e9abfc0f454a867fd71802a9934&w=360",
+    "name": "Kanesh",
+    "job": "Designer"
+  },
+  {
+    "image": "https://img.freepik.com/free-photo/beautiful-woman-natural-pose_23-2148364936.jpg?t=st=1709821643~exp=1709825243~hmac=ac4a7bafdcf89cc0ad809586ca359debd5ec0f97676a4e857be3b94027c263a5&w=360",
+    "name": "Nancy",
+    "job": "Photographer"
+  }
+]
