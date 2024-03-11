@@ -1,0 +1,348 @@
+[
+  {
+    "id": "dsadjaskdjsa",
+    "image": "https://img.freepik.com/free-photo/beautiful-backpack-white_1339-7961.jpg?t=st=1709804982~exp=1709808582~hmac=2c1ddc86055ea7954453879f20b862598fe522bba742312b803fa2f7a3c2c22b&w=360",
+    "title": "Beautiful backpack on white",
+    "price": 100000,
+    "rating": {
+      "stars": 5,
+      "count": 600
+    },
+    "discount": "-60%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Men`s"
+      },
+      {
+        "id": "2",
+        "name": "Bag"
+      }
+    ],
+    "sold": "1RB+"
+  },
+  {
+    "id": "dasdUq123dasq",
+    "image": "https://img.freepik.com/free-photo/beautiful-elegance-luxury-fashion-pink-women-handbag_1203-7653.jpg?t=st=1709805220~exp=1709808820~hmac=c79436d16e00ad11d29aa840f47de76283d58d5ed5df226bcdbe84f64acd3589&w=740",
+    "title": "Elegance and luxury fashion pink women handbag",
+    "price": 700000,
+    "rating": {
+      "stars": 4.9,
+      "count": 200
+    },
+    "discount": "-79%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Women"
+      },
+      {
+        "id": "2",
+        "name": "Bag"
+      }
+    ],
+    "sold": "500+"
+  },
+  {
+    "id": "spda611QQSS",
+    "image": "https://img.freepik.com/free-photo/gray-duffle-bag-unisex-accessory_53876-101500.jpg?t=st=1709805271~exp=1709808871~hmac=3c8845696ea98ca47a34cd88067b6fcfe0051e3c5afa28e822a0953c1c3b5c6a&w=740",
+    "title": "Texture female handbag luxury beauty",
+    "price": 350000,
+    "rating": {
+      "stars": 4.5,
+      "count": 1000
+    },
+    "discount": "-50%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Women"
+      },
+      {
+        "id": "2",
+        "name": "Bag"
+      }
+    ],
+    "sold": "2RB+"
+  },
+  {
+    "id": "YSTA12lsdsas",
+    "image": "https://img.freepik.com/free-photo/texture-female-handbag-luxury-beauty_1203-6499.jpg?t=st=1709805388~exp=1709808988~hmac=4d26bb59c6b0f087ee9b73a82f7ddb31c507141bcf93dfd104c571037e4890e2&w=360",
+    "title": "Beautiful backpack on white",
+    "price": 235000,
+    "rating": {
+      "stars": 4.7,
+      "count": 5000
+    },
+    "discount": "-85%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Women"
+      },
+      {
+        "id": "2",
+        "name": "Bag"
+      }
+    ],
+    "sold": "20RB+"
+  },
+  {
+    "id": "ERstqwlqksdsa",
+    "image": "https://img.freepik.com/free-psd/mens-tri-blend-crew-tee-mockup_126278-130.jpg?t=st=1709805612~exp=1709809212~hmac=da8d371e1dd3326ec8d5b16beb881c33fa82a5dd0e6c180045789ac49f9844c6&w=740",
+    "title": "Mens tri-blend crew tee mockup",
+    "price": 75000,
+    "rating": {
+      "stars": 4.9,
+      "count": 10000
+    },
+    "discount": "-44%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Men`s"
+      },
+      {
+        "id": "2",
+        "name": "Tshirt"
+      }
+    ],
+    "sold": "50RB+"
+  },
+  {
+    "id": "qwweeq12099Q",
+    "image": "https://img.freepik.com/free-psd/white-t-shirt-front-mockup_23-292935585.jpg?t=st=1709805681~exp=1709809281~hmac=4bb00e9d616fe172547d701ba816060d315c5ca82a8e979f9995c0f82553db2d&w=740",
+    "title": "White t-shirt front mockup",
+    "price": 115000,
+    "rating": {
+      "stars": 4.7,
+      "count": 3000
+    },
+    "discount": "-35%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Men`s"
+      },
+      {
+        "id": "2",
+        "name": "Tshirt"
+      }
+    ],
+    "sold": "5RB+"
+  },
+  {
+    "id": "UqKja873hakdsax",
+    "image": "https://img.freepik.com/free-photo/trendy-fashionable-couple-posing_155003-3402.jpg?t=st=1709805762~exp=1709809362~hmac=e86ea6ada3051cd5cda23480f11d7fc2370829360e38fb83b90c028d28c66f37&w=740",
+    "title": "Trendy fashionable couple posing",
+    "price": 345000,
+    "rating": {
+      "stars": 4.9,
+      "count": 12000
+    },
+    "discount": "-78%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Men`s"
+      },
+      {
+        "id": "2",
+        "name": "Women"
+      },
+      {
+        "id": "3",
+        "name": "Jacket"
+      }
+    ],
+    "sold": "100RB+"
+  },
+  {
+    "id": "kjalasASASA17653",
+    "image": "https://img.freepik.com/free-photo/stylish-guy-posing-city_1153-5863.jpg?t=st=1709805914~exp=1709809514~hmac=90f0fb59a01f59b32bc68640bb00a084aa1ae079328247be691038f54aff56b8&w=360",
+    "title": "Jacket guy posing in the city",
+    "price": 495000,
+    "rating": {
+      "stars": 4.9,
+      "count": 1530
+    },
+    "discount": "-66%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Men`s"
+      },
+      {
+        "id": "2",
+        "name": "Jacket"
+      }
+    ],
+    "sold": "4.5RB+"
+  },
+  {
+    "id": "lorResquhs144hv",
+    "image": "https://img.freepik.com/free-photo/portrait-young-boy-playing-with-his-stuffed-animal-toy_23-2150854269.jpg?t=st=1709806022~exp=1709809622~hmac=c4c11e487ce19fdb69830d2d40ba847565fdbf960e93d89f4f9bfdee8c2dbee3&w=360",
+    "title": "Animal toy",
+    "price": 175000,
+    "rating": {
+      "stars": 4.8,
+      "count": 3000
+    },
+    "discount": "-55%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Kids"
+      },
+      {
+        "id": "2",
+        "name": "Toy"
+      }
+    ],
+    "sold": "8RB+"
+  },
+  {
+    "id": "DoSasaslqkq",
+    "image": "https://img.freepik.com/free-photo/cute-teddy-bear-indoors-still-life_23-2151083625.jpg?t=st=1709806129~exp=1709809729~hmac=51c92a8bf8b13f2eeebe8daea3fdb9dec4f76a74fc50edaed1d123fb183516fe&w=360",
+    "title": "Cute teddy bear",
+    "price": 405000,
+    "rating": {
+      "stars": 4.6,
+      "count": 50000
+    },
+    "discount": "-73%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Kids"
+      },
+      {
+        "id": "2",
+        "name": "Women"
+      },
+      {
+        "id": "3",
+        "name": "Toy"
+      }
+    ],
+    "sold": "200RB+"
+  },
+  {
+    "id": "qwweeq12099Q",
+    "image": "https://img.freepik.com/free-psd/white-t-shirt-front-mockup_23-292935585.jpg?t=st=1709805681~exp=1709809281~hmac=4bb00e9d616fe172547d701ba816060d315c5ca82a8e979f9995c0f82553db2d&w=740",
+    "title": "White t-shirt front mockup",
+    "price": 115000,
+    "rating": {
+      "stars": 4.7,
+      "count": 3000
+    },
+    "discount": "-35%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Men`s"
+      },
+      {
+        "id": "2",
+        "name": "Tshirt"
+      }
+    ],
+    "sold": "5RB+"
+  },
+  {
+    "id": "UqKja873hakdsax",
+    "image": "https://img.freepik.com/free-photo/trendy-fashionable-couple-posing_155003-3402.jpg?t=st=1709805762~exp=1709809362~hmac=e86ea6ada3051cd5cda23480f11d7fc2370829360e38fb83b90c028d28c66f37&w=740",
+    "title": "Trendy fashionable couple posing",
+    "price": 345000,
+    "rating": {
+      "stars": 4.9,
+      "count": 12000
+    },
+    "discount": "-78%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Men`s"
+      },
+      {
+        "id": "2",
+        "name": "Women"
+      },
+      {
+        "id": "3",
+        "name": "Jacket"
+      }
+    ],
+    "sold": "100RB+"
+  },
+  {
+    "id": "kjalasASASA17653",
+    "image": "https://img.freepik.com/free-photo/stylish-guy-posing-city_1153-5863.jpg?t=st=1709805914~exp=1709809514~hmac=90f0fb59a01f59b32bc68640bb00a084aa1ae079328247be691038f54aff56b8&w=360",
+    "title": "Jacket guy posing in the city",
+    "price": 495000,
+    "rating": {
+      "stars": 4.9,
+      "count": 1530
+    },
+    "discount": "-66%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Men`s"
+      },
+      {
+        "id": "2",
+        "name": "Jacket"
+      }
+    ],
+    "sold": "4.5RB+"
+  },
+  {
+    "id": "lorResquhs144hv",
+    "image": "https://img.freepik.com/free-photo/portrait-young-boy-playing-with-his-stuffed-animal-toy_23-2150854269.jpg?t=st=1709806022~exp=1709809622~hmac=c4c11e487ce19fdb69830d2d40ba847565fdbf960e93d89f4f9bfdee8c2dbee3&w=360",
+    "title": "Animal toy",
+    "price": 175000,
+    "rating": {
+      "stars": 4.8,
+      "count": 3000
+    },
+    "discount": "-55%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Kids"
+      },
+      {
+        "id": "2",
+        "name": "Toy"
+      }
+    ],
+    "sold": "8RB+"
+  },
+  {
+    "id": "DoSasaslqkq",
+    "image": "https://img.freepik.com/free-photo/cute-teddy-bear-indoors-still-life_23-2151083625.jpg?t=st=1709806129~exp=1709809729~hmac=51c92a8bf8b13f2eeebe8daea3fdb9dec4f76a74fc50edaed1d123fb183516fe&w=360",
+    "title": "Cute teddy bear",
+    "price": 405000,
+    "rating": {
+      "stars": 4.6,
+      "count": 50000
+    },
+    "discount": "-73%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Kids"
+      },
+      {
+        "id": "2",
+        "name": "Women"
+      },
+      {
+        "id": "3",
+        "name": "Toy"
+      }
+    ],
+    "sold": "200RB+"
+  }
+]
