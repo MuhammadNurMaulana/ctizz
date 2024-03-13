@@ -5,18 +5,6 @@ import Label from "@/components/form-components/label"
 import { dataReview } from "@/lib/auth/dataReview"
 import { FormEvent, useState } from "react"
 
-type Reviews = {
-  id: string
-  name: string | null
-  createdAt: Date
-  email: string | null
-  review: string | null
-  rating: string | null
-  imageProfile: string | null
-  emailProfile: string | null
-  nameProfile: string | null
-}
-
 export default function DataReviews({ imageProfile, emailProfile, nameProfile }: any) {
   const [error, setError] = useState("")
 
@@ -52,7 +40,7 @@ export default function DataReviews({ imageProfile, emailProfile, nameProfile }:
   }
 
   return (
-    <form onSubmit={handleSubmit} className="px-16 my-10">
+    <form onSubmit={handleSubmit} className="px-4 md:px-8 lg:px-16 my-10">
       <h1 className="text-xl font-semibold my-8">Tambah review yang kamu berikan</h1>
       <div className="grid gap-2">
         <Label label="Rating" name="rating" />

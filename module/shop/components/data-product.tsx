@@ -29,9 +29,9 @@ export default function DataProductDetails({ product, randomProduct }: { product
   return (
     <>
       {product && (
-        <div className="p-16">
-          <h1>Home / Shop / {product[0].title}</h1>
-          <div className={`grid grid-cols-2 my-8 ${playfair.className}`}>
+        <div className="p-4 md:p-8 lg:p-16">
+          <h1 className="font-semibold">Home / Shop / {product[0].title}</h1>
+          <div className={`grid lg:grid-cols-2 my-8 ${playfair.className}`}>
             <Image src={product[0].image} alt={product[0].title} width={800} height={800} className="h-[400px] object-contain object-center w-full" />
             <div className="flex flex-col flex-wrap gap-2">
               <h1 className={`text-2xl font-bold`}>{product[0].title}</h1>
@@ -53,7 +53,7 @@ export default function DataProductDetails({ product, randomProduct }: { product
           <div>
             <h1 className="my-10 text-xl font-semibold">Produk yang mungkin kamu suka</h1>
 
-            <div className="grid grid-cols-5 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
               {randomProduct.map((item: Products) => (
                 <Link key={item.id} href={`/shop/${item.id}`}>
                   <Image src={item.image} alt={item.title} width={600} height={600} className="h-[200px] object-contain object-center w-full" />

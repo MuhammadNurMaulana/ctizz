@@ -26,11 +26,11 @@ export default async function DataCek({ stars, count }: { stars: number; count: 
   }
 
   return (
-    <div className="p-16">
-      <div className="flex items-center gap-2">
+    <div className="px-6 md:px-10 lg:px-18">
+      <div className="flex flex-col md:flex-row items-center gap-2">
         <h1 className="text-xl font-semibold">Penilaian Pelanggan</h1>
-        <h1>
-          / ⭐ {stars} dari {count} review{" "}
+        <h1 className="text-sm">
+          ⭐ {stars} dari {count} review{" "}
         </h1>
       </div>
 
@@ -47,11 +47,15 @@ export default async function DataCek({ stars, count }: { stars: number; count: 
               </div>
               <h1 className="text-sm font-semibold">{item.name}</h1>
               <h1 className="text-sm">{item.review}</h1>
-              <div className="flex text-sm font-semibold gap-1">
-                <h1 className="text-neutral-400">Direview oleh</h1>
-                <h2>{item.email}</h2>
-                <h1 className="text-neutral-400">Diunggah pada</h1>
-                <h2>{item.createdAt}</h2>
+              <div className="flex flex-col md:flex-row text-sm font-semibold gap-1">
+                <div className="flex items-center gap-1 flex-wrap">
+                  <h1 className="text-neutral-400">Direview oleh</h1>
+                  <h2>{item.email}</h2>
+                </div>
+                <div className="flex items-center gap-1">
+                  <h1 className="text-neutral-400">Diunggah pada</h1>
+                  <h2>{item.createdAt}</h2>
+                </div>
               </div>
             </div>
           ))}
