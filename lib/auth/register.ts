@@ -3,22 +3,24 @@
 import bcrypt from "bcryptjs"
 import { db } from "../db"
 
-
 export const register = async (body: any) => {
-  const { firstName, lastName, email, password } = body
+  const { firstName, lastName, email, password, role, image } = body
+
+  const name = firstName + " " + lastName
 
   const hashPass = await bcrypt.hash(password, 10)
 
-  const existUser = await db.user.findUnique({where: {email}})
+  const existUser = await db.user.findUnique({ where: { email } })
 
   if (existUser) return { message: "User already exist" }
 
   await db.user.create({
     data: {
-      firstName,
-      lastName,
+      name,
       email,
       password: hashPass,
+      role,
+      image,
     },
   })
 

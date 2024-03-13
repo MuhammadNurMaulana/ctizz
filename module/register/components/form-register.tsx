@@ -30,6 +30,8 @@ export default function FormRegister() {
         firstName: formData.get("firstName"),
         lastName: formData.get("lastName"),
         password: formData.get("password"),
+        role: "admin",
+        image: "https://cdn-icons-png.flaticon.com/512/149/149071.png",
       }
 
       const cek = register(body)

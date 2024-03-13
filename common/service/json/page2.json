@@ -1,36 +1,36 @@
 [
   {
-    "id": "dsadjaskdjsa",
-    "image": "https://img.freepik.com/free-photo/beautiful-backpack-white_1339-7961.jpg?t=st=1709804982~exp=1709808582~hmac=2c1ddc86055ea7954453879f20b862598fe522bba742312b803fa2f7a3c2c22b&w=360",
-    "title": "Beautiful backpack on white",
-    "price": 100000,
+    "id": "Ksjasqw111",
+    "image": "https://img.freepik.com/free-psd/3d-illustration-children-s-toy-duck-car_23-2149345304.jpg?t=st=1710298603~exp=1710302203~hmac=f5cea85f28a7c743af2c66609f865489b05abc4eeedc9365f00ed9c038f3b2c5&w=740",
+    "title": "Toy duck car",
+    "price": 10000,
     "rating": {
-      "stars": 5,
-      "count": 600
+      "stars": 4.7,
+      "count": 6000
     },
-    "discount": "-60%",
+    "discount": "-30%",
     "categories": [
       {
         "id": "1",
-        "name": "Men`s"
+        "name": "Toy"
       },
       {
         "id": "2",
-        "name": "Bag"
+        "name": "Kids"
       }
     ],
-    "sold": "1RB+"
+    "sold": "1.5RB+"
   },
   {
-    "id": "dasdUq123dasq",
-    "image": "https://img.freepik.com/free-photo/beautiful-elegance-luxury-fashion-pink-women-handbag_1203-7653.jpg?t=st=1709805220~exp=1709808820~hmac=c79436d16e00ad11d29aa840f47de76283d58d5ed5df226bcdbe84f64acd3589&w=740",
-    "title": "Elegance and luxury fashion pink women handbag",
-    "price": 700000,
+    "id": "ldshdasdyw00",
+    "image": "https://img.freepik.com/free-photo/cute-teddy-bear_144627-15242.jpg?t=st=1710298845~exp=1710302445~hmac=8b1152b15b908502b65879a1f144fe0ea4b5d97391a85f863b67d23be4671aae&w=740",
+    "title": "Cute pink bear",
+    "price": 70000,
     "rating": {
       "stars": 4.9,
-      "count": 200
+      "count": 100
     },
-    "discount": "-79%",
+    "discount": "-19%",
     "categories": [
       {
         "id": "1",
@@ -38,19 +38,19 @@
       },
       {
         "id": "2",
-        "name": "Bag"
+        "name": "Toy"
       }
     ],
     "sold": "500+"
   },
   {
-    "id": "spda611QQSS",
-    "image": "https://img.freepik.com/free-photo/gray-duffle-bag-unisex-accessory_53876-101500.jpg?t=st=1709805271~exp=1709808871~hmac=3c8845696ea98ca47a34cd88067b6fcfe0051e3c5afa28e822a0953c1c3b5c6a&w=740",
-    "title": "Texture female handbag luxury beauty",
-    "price": 350000,
+    "id": "oaksasjqqq1",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-christmas-toys-collection_23-2148762770.jpg?t=st=1710298992~exp=1710302592~hmac=0660e0c88e324c2bc702a29ef42c0e2f88549a31db017e7acb80ca9dcf031623&w=740",
+    "title": "Sticker cristmas collection",
+    "price": 15000,
     "rating": {
       "stars": 4.5,
-      "count": 1000
+      "count": 1500
     },
     "discount": "-50%",
     "categories": [
@@ -60,38 +60,46 @@
       },
       {
         "id": "2",
-        "name": "Bag"
+        "name": "Toy"
+      },
+      {
+        "id": "3",
+        "name": "Kids"
       }
     ],
-    "sold": "2RB+"
+    "sold": "3RB+"
   },
   {
-    "id": "YSTA12lsdsas",
-    "image": "https://img.freepik.com/free-photo/texture-female-handbag-luxury-beauty_1203-6499.jpg?t=st=1709805388~exp=1709808988~hmac=4d26bb59c6b0f087ee9b73a82f7ddb31c507141bcf93dfd104c571037e4890e2&w=360",
-    "title": "Beautiful backpack on white",
-    "price": 235000,
+    "id": "ldjsakda1wwqqS",
+    "image": "https://img.freepik.com/free-photo/authentic-scene-kid-playing_23-2150197675.jpg?t=st=1710299118~exp=1710302718~hmac=98184853f4633d51ce949d509887fea5ac85a0acd24e01d2c18105064e01c961&w=360",
+    "title": "Toy kid playing",
+    "price": 305000,
     "rating": {
-      "stars": 4.7,
-      "count": 5000
+      "stars": 4.6,
+      "count": 100
     },
-    "discount": "-85%",
+    "discount": "-10%",
     "categories": [
       {
         "id": "1",
-        "name": "Women"
+        "name": "Men`s"
       },
       {
         "id": "2",
-        "name": "Bag"
+        "name": "Toy"
+      },
+      {
+        "id": "3",
+        "name": "Kids"
       }
     ],
-    "sold": "20RB+"
+    "sold": "500+"
   },
   {
-    "id": "ERstqwlqksdsa",
-    "image": "https://img.freepik.com/free-psd/mens-tri-blend-crew-tee-mockup_126278-130.jpg?t=st=1709805612~exp=1709809212~hmac=da8d371e1dd3326ec8d5b16beb881c33fa82a5dd0e6c180045789ac49f9844c6&w=740",
-    "title": "Mens tri-blend crew tee mockup",
-    "price": 75000,
+    "id": "ERqask00S",
+    "image": "https://img.freepik.com/free-photo/stylish-golden-watch-white-surface_181624-27078.jpg?t=st=1710299305~exp=1710302905~hmac=349f9b0cf39ae3944285050be53a7dba32b240e5c9eae078b3883d0ee91a9553&w=740",
+    "title": "Stylish golden watch on a white surface",
+    "price": 200000,
     "rating": {
       "stars": 4.9,
       "count": 10000
@@ -104,21 +112,173 @@
       },
       {
         "id": "2",
-        "name": "Tshirt"
+        "name": "Women"
       }
     ],
     "sold": "50RB+"
   },
   {
-    "id": "qwweeq12099Q",
-    "image": "https://img.freepik.com/free-psd/white-t-shirt-front-mockup_23-292935585.jpg?t=st=1709805681~exp=1709809281~hmac=4bb00e9d616fe172547d701ba816060d315c5ca82a8e979f9995c0f82553db2d&w=740",
-    "title": "White t-shirt front mockup",
-    "price": 115000,
+    "id": "QsQkasjaksjass8",
+    "image": "https://img.freepik.com/free-photo/businessman-consulting-wristwatch_1262-18365.jpg?t=st=1710299388~exp=1710302988~hmac=7688914e1967d8fd1ca4e8c0d6d8f56738bebb642a68677105366051f4288d0a&w=740",
+    "title": "WrisWatch",
+    "price": 400000,
     "rating": {
       "stars": 4.7,
-      "count": 3000
+      "count": 2000
     },
-    "discount": "-35%",
+    "discount": "-21%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Men`s"
+      }
+    ],
+    "sold": "5RB+"
+  },
+  {
+    "id": "pks1Qsddxzx",
+    "image": "https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg?t=st=1710299462~exp=1710303062~hmac=c49f2d4eea89aedce1127516112ee3eb63bac466ad803bae7d9857e363e43a15&w=740",
+    "title": "Smart watch black Series S",
+    "price": 700000,
+    "rating": {
+      "stars": 4.9,
+      "count": 12000
+    },
+    "discount": "-7%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Men`s"
+      },
+      {
+        "id": "2",
+        "name": "Women"
+      }
+    ],
+    "sold": "30RB+"
+  },
+  {
+    "id": "OOOassasq1ssdsa",
+    "image": "https://img.freepik.com/free-photo/vertical-shot-man-wearing-watch_181624-45396.jpg?t=st=1710299617~exp=1710303217~hmac=9fcb586abe281b16919c863bbf290db48b4991b8fad5fae7cb50e5f09909988a&w=360",
+    "title": "Pink Watch Series 1",
+    "price": 199000,
+    "rating": {
+      "stars": 4.7,
+      "count": 2000
+    },
+    "discount": "-6%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Women"
+      }
+    ],
+    "sold": "4.5RB+"
+  },
+  {
+    "id": "lsajdksadasdsa",
+    "image": "https://img.freepik.com/free-photo/close-up-body-butter-recipient_23-2148543010.jpg?t=st=1710299753~exp=1710303353~hmac=5fc9b89d6f3d702bb70e0f1a7a631c76e5436c229c627ff3bb0b9f346236dbe9&w=740",
+    "title": "Close-up body butter recipient",
+    "price": 231000,
+    "rating": {
+      "stars": 4.8,
+      "count": 15000
+    },
+    "discount": "-12%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Women"
+      }
+    ],
+    "sold": "40RB+"
+  },
+  {
+    "id": "DoSasaslqkqdsada11",
+    "image": "https://img.freepik.com/free-photo/top-view-containers-arrangement_23-2148978196.jpg?t=st=1710299844~exp=1710303444~hmac=bc118e484d5005242e615910b2f2acf25323d917ae98fe631257245f8e41cc63&w=740",
+    "title": "Skincare top containers arrangement",
+    "price": 355000,
+    "rating": {
+      "stars": 4.8,
+      "count": 5000
+    },
+    "discount": "-43%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Women"
+      }
+    ],
+    "sold": "10RB+"
+  },
+  {
+    "id": "1ldsakdasdwdjqq",
+    "image": "https://img.freepik.com/free-vector/realistic-ad-template-natural-cream_23-2148255735.jpg?t=st=1710299990~exp=1710303590~hmac=a8b20f632fea2f2d83891b5134bdb221dda0ecdac8ddfa072b2b03b3c6aa76a1&w=740",
+    "title": "Natural Cream",
+    "price": 515000,
+    "rating": {
+      "stars": 4.7,
+      "count": 2000
+    },
+    "discount": "-2%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Women"
+      }
+    ],
+    "sold": "4RB+"
+  },
+  {
+    "id": "UqKaa11sswrtggd",
+    "image": "https://img.freepik.com/free-photo/beautiful-woman-wearing-co-ord-outfits-closeup-shot_53876-128787.jpg?t=st=1710300088~exp=1710303688~hmac=d9a46d141ff567e7f7ec906a151c32168f4e3f46e74fe605c92d2b4fdce66033&w=360",
+    "title": "T-shirt co-ord outfits in closeup shot",
+    "price": 45000,
+    "rating": {
+      "stars": 4.9,
+      "count": 12000
+    },
+    "discount": "-78%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Women"
+      }
+    ],
+    "sold": "21RB+"
+  },
+  {
+    "id": "kjalaa7653",
+    "image": "https://img.freepik.com/free-photo/girl-green-t-shirt-blue-jacket-winter-fashion-shoot_53876-102945.jpg?t=st=1710300187~exp=1710303787~hmac=622685e943efbb7ec46d1f3337aa632c424b13d876bb9e294c63c5222c143ba4&w=360",
+    "title": "Blue Jacket winter",
+    "price": 255000,
+    "rating": {
+      "stars": 4.9,
+      "count": 100
+    },
+    "discount": "-26%",
+    "categories": [
+      {
+        "id": "1",
+        "name": "Women"
+      },
+      {
+        "id": "2",
+        "name": "Jacket"
+      }
+    ],
+    "sold": "1RB+"
+  },
+  {
+    "id": "lorRaasxzv",
+    "image": "https://img.freepik.com/free-photo/portrait-handsome-young-businessman_158595-256.jpg?t=st=1710300302~exp=1710303902~hmac=d9e1c5d5b89e85b7844f0516d20fa411f699d63f91267cf030ea9312105521f7&w=360",
+    "title": "Casual White T-shirt",
+    "price": 125000,
+    "rating": {
+      "stars": 4.8,
+      "count": 2000
+    },
+    "discount": "-5%",
     "categories": [
       {
         "id": "1",
@@ -129,162 +289,18 @@
         "name": "Tshirt"
       }
     ],
-    "sold": "5RB+"
+    "sold": "3.5RB+"
   },
   {
-    "id": "UqKja873hakdsax",
-    "image": "https://img.freepik.com/free-photo/trendy-fashionable-couple-posing_155003-3402.jpg?t=st=1709805762~exp=1709809362~hmac=e86ea6ada3051cd5cda23480f11d7fc2370829360e38fb83b90c028d28c66f37&w=740",
-    "title": "Trendy fashionable couple posing",
-    "price": 345000,
-    "rating": {
-      "stars": 4.9,
-      "count": 12000
-    },
-    "discount": "-78%",
-    "categories": [
-      {
-        "id": "1",
-        "name": "Men`s"
-      },
-      {
-        "id": "2",
-        "name": "Women"
-      },
-      {
-        "id": "3",
-        "name": "Jacket"
-      }
-    ],
-    "sold": "100RB+"
-  },
-  {
-    "id": "kjalasASASA17653",
-    "image": "https://img.freepik.com/free-photo/stylish-guy-posing-city_1153-5863.jpg?t=st=1709805914~exp=1709809514~hmac=90f0fb59a01f59b32bc68640bb00a084aa1ae079328247be691038f54aff56b8&w=360",
-    "title": "Jacket guy posing in the city",
-    "price": 495000,
-    "rating": {
-      "stars": 4.9,
-      "count": 1530
-    },
-    "discount": "-66%",
-    "categories": [
-      {
-        "id": "1",
-        "name": "Men`s"
-      },
-      {
-        "id": "2",
-        "name": "Jacket"
-      }
-    ],
-    "sold": "4.5RB+"
-  },
-  {
-    "id": "lorResquhs144hv",
-    "image": "https://img.freepik.com/free-photo/portrait-young-boy-playing-with-his-stuffed-animal-toy_23-2150854269.jpg?t=st=1709806022~exp=1709809622~hmac=c4c11e487ce19fdb69830d2d40ba847565fdbf960e93d89f4f9bfdee8c2dbee3&w=360",
-    "title": "Animal toy",
-    "price": 175000,
-    "rating": {
-      "stars": 4.8,
-      "count": 3000
-    },
-    "discount": "-55%",
-    "categories": [
-      {
-        "id": "1",
-        "name": "Kids"
-      },
-      {
-        "id": "2",
-        "name": "Toy"
-      }
-    ],
-    "sold": "8RB+"
-  },
-  {
-    "id": "DoSasaslqkq",
-    "image": "https://img.freepik.com/free-photo/cute-teddy-bear-indoors-still-life_23-2151083625.jpg?t=st=1709806129~exp=1709809729~hmac=51c92a8bf8b13f2eeebe8daea3fdb9dec4f76a74fc50edaed1d123fb183516fe&w=360",
-    "title": "Cute teddy bear",
-    "price": 405000,
-    "rating": {
-      "stars": 4.6,
-      "count": 50000
-    },
-    "discount": "-73%",
-    "categories": [
-      {
-        "id": "1",
-        "name": "Kids"
-      },
-      {
-        "id": "2",
-        "name": "Women"
-      },
-      {
-        "id": "3",
-        "name": "Toy"
-      }
-    ],
-    "sold": "200RB+"
-  },
-  {
-    "id": "qwweeq12099Q",
-    "image": "https://img.freepik.com/free-psd/white-t-shirt-front-mockup_23-292935585.jpg?t=st=1709805681~exp=1709809281~hmac=4bb00e9d616fe172547d701ba816060d315c5ca82a8e979f9995c0f82553db2d&w=740",
-    "title": "White t-shirt front mockup",
-    "price": 115000,
+    "id": "DoSasaslqkqaasq11",
+    "image": "https://img.freepik.com/free-photo/man-navy-jacket-shorts-streetwear_53876-102182.jpg?t=st=1710300379~exp=1710303979~hmac=c5e0c204e74389e161589c2b53fbd5a3855a09bab25921e7bd1a50198b923a9d&w=360",
+    "title": "Navy jacket",
+    "price": 105000,
     "rating": {
       "stars": 4.7,
-      "count": 3000
+      "count": 500
     },
-    "discount": "-35%",
-    "categories": [
-      {
-        "id": "1",
-        "name": "Men`s"
-      },
-      {
-        "id": "2",
-        "name": "Tshirt"
-      }
-    ],
-    "sold": "5RB+"
-  },
-  {
-    "id": "UqKja873hakdsax",
-    "image": "https://img.freepik.com/free-photo/trendy-fashionable-couple-posing_155003-3402.jpg?t=st=1709805762~exp=1709809362~hmac=e86ea6ada3051cd5cda23480f11d7fc2370829360e38fb83b90c028d28c66f37&w=740",
-    "title": "Trendy fashionable couple posing",
-    "price": 345000,
-    "rating": {
-      "stars": 4.9,
-      "count": 12000
-    },
-    "discount": "-78%",
-    "categories": [
-      {
-        "id": "1",
-        "name": "Men`s"
-      },
-      {
-        "id": "2",
-        "name": "Women"
-      },
-      {
-        "id": "3",
-        "name": "Jacket"
-      }
-    ],
-    "sold": "100RB+"
-  },
-  {
-    "id": "kjalasASASA17653",
-    "image": "https://img.freepik.com/free-photo/stylish-guy-posing-city_1153-5863.jpg?t=st=1709805914~exp=1709809514~hmac=90f0fb59a01f59b32bc68640bb00a084aa1ae079328247be691038f54aff56b8&w=360",
-    "title": "Jacket guy posing in the city",
-    "price": 495000,
-    "rating": {
-      "stars": 4.9,
-      "count": 1530
-    },
-    "discount": "-66%",
+    "discount": "-83%",
     "categories": [
       {
         "id": "1",
@@ -295,54 +311,6 @@
         "name": "Jacket"
       }
     ],
-    "sold": "4.5RB+"
-  },
-  {
-    "id": "lorResquhs144hv",
-    "image": "https://img.freepik.com/free-photo/portrait-young-boy-playing-with-his-stuffed-animal-toy_23-2150854269.jpg?t=st=1709806022~exp=1709809622~hmac=c4c11e487ce19fdb69830d2d40ba847565fdbf960e93d89f4f9bfdee8c2dbee3&w=360",
-    "title": "Animal toy",
-    "price": 175000,
-    "rating": {
-      "stars": 4.8,
-      "count": 3000
-    },
-    "discount": "-55%",
-    "categories": [
-      {
-        "id": "1",
-        "name": "Kids"
-      },
-      {
-        "id": "2",
-        "name": "Toy"
-      }
-    ],
-    "sold": "8RB+"
-  },
-  {
-    "id": "DoSasaslqkq",
-    "image": "https://img.freepik.com/free-photo/cute-teddy-bear-indoors-still-life_23-2151083625.jpg?t=st=1709806129~exp=1709809729~hmac=51c92a8bf8b13f2eeebe8daea3fdb9dec4f76a74fc50edaed1d123fb183516fe&w=360",
-    "title": "Cute teddy bear",
-    "price": 405000,
-    "rating": {
-      "stars": 4.6,
-      "count": 50000
-    },
-    "discount": "-73%",
-    "categories": [
-      {
-        "id": "1",
-        "name": "Kids"
-      },
-      {
-        "id": "2",
-        "name": "Women"
-      },
-      {
-        "id": "3",
-        "name": "Toy"
-      }
-    ],
-    "sold": "200RB+"
+    "sold": "1.7RB+"
   }
 ]

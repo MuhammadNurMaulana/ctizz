@@ -29,7 +29,7 @@ export default function ShopCategories({ filterItems, minPrice, maxPrice, setIco
   }
 
   return (
-    <div className={`${setIconFilter ? "absolute top-0 right-0 left-0 lg:block lg:static bg-white p-3 min-h-screen" : "hidden lg:block"}`}>
+    <div className={`${setIconFilter ? "w-[80%] absolute top-0 right-0 left-0 lg:block lg:static bg-white p-3 min-h-screen" : "hidden lg:block"}`}>
       <button className="flex items-center gap-2 mt-5 text-xl font-semibold " onClick={handleProductCategories}>
         Berdasarkan Kategori {cat ? <p>&darr;</p> : <p>&uarr;</p>}
       </button>

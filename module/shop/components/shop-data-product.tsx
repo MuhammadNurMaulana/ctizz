@@ -23,8 +23,8 @@ export default function ShopProduct({ product, handleNext, handlePrev, disabledN
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
         {!product && <p className="col-span-3">Produk tidak ditemukan</p>}
         {product &&
-          product.map((item: Products, idx: number) => (
-            <Link key={idx} href={"/"}>
+          product.map((item: Products) => (
+            <Link key={item.id} href={`/shop/${item.id}`}>
               <Image src={item.image} alt={item.title} width={600} height={600} className="h-[200px] object-contain object-center w-full" />
               <div className="grid gap-3 p-4">
                 <h1 className="truncate font-serif font-semibold text-xs md:text-lg">{item.title}</h1>

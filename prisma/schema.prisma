@@ -34,13 +34,24 @@ model Account {
 model User {
   id            String    @id @default(cuid())
   name          String?
-  firstName     String?
-  lastName      String?
   email         String?   @unique
+  role          String?
   emailVerified DateTime?
   image         String?
   password      String?
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
   accounts      Account[]
+}
+
+model Review {
+  id            String @id @default(cuid())
+  name          String?
+  createdAt     DateTime  @default(now())
+  email         String?
+  emailProfile  String?
+  nameProfile   String?
+  rating        String?
+  review        String?
+  imageProfile  String?
 }

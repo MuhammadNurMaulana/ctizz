@@ -11,8 +11,19 @@ export const GET = async (req: NextRequest) => {
   const category = req.nextUrl.searchParams.get("category")
   const minPrice = req.nextUrl.searchParams.get("minPrice")
   const maxPrice = req.nextUrl.searchParams.get("maxPrice")
+  const id = req.nextUrl.searchParams.get("id")
 
   const allProduct = [...product1, ...product2, ...product3]
+
+  if (id) {
+    const filteredProducts = allProduct.filter((item) => item.id === id)
+
+    if (filteredProducts.length === 0) {
+      return NextResponse.json({ message: "404", error: "Product not found" })
+    }
+
+    return NextResponse.json({ message: "200", data: filteredProducts })
+  }
 
   if (minPrice && maxPrice) {
     const filteredProducts = allProduct.filter((item) => item.price >= Number(minPrice) && item.price <= Number(maxPrice))

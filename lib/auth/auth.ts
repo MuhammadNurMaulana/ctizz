@@ -53,9 +53,10 @@ const config = {
     async jwt({ token, user }: any) {
       if (user) {
         token.id = user.id
-        token.firstName = user.firstName
-        token.lastName = user.lastName
         token.email = user.email
+        token.image = user.image
+        token.role = user.role
+        token.name = user.name
       }
 
       return token
@@ -67,9 +68,11 @@ const config = {
       if (user) {
         session.user = {
           id: user.id,
-          firstName: user.firstName,
-          lastName: user.lastName,
           email: user.email,
+          password: user.password,
+          role: user?.role,
+          name: user.name,
+          image: user.image,
         }
       }
 
