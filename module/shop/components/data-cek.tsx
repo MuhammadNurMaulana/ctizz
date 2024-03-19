@@ -15,14 +15,15 @@ export default async function DataCek({ stars, count }: { stars: number; count: 
   const productStars = (stars: number) => {
     if (stars === 5) {
       return "⭐⭐⭐⭐⭐"
-    } else if (stars < 5) {
+    } else if (stars === 4) {
       return "⭐⭐⭐⭐"
-    } else if (stars < 4) {
+    } else if (stars === 3) {
       return "⭐⭐⭐"
-    } else if (stars < 3) {
+    } else if (stars === 2) {
       return "⭐⭐"
-    } else stars < 2
-    return "⭐"
+    } else {
+      return "⭐"
+    }
   }
 
   return (
@@ -42,7 +43,7 @@ export default async function DataCek({ stars, count }: { stars: number; count: 
                 <Image src={item.imageProfile} alt={item.name} width={100} height={100} className="w-10 h-10 rounded-full" />
                 <div>
                   <h1 className="font-semibold text-sm">{item.nameProfile}</h1>
-                  <p>{productStars(Number(item.rating))}</p>
+                  <p>{productStars(Number.parseFloat(item.rating))}</p>
                 </div>
               </div>
               <h1 className="text-sm font-semibold">{item.name}</h1>

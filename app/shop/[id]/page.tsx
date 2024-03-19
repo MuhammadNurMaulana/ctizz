@@ -1,4 +1,5 @@
 import { GetApi } from "@/common/service/api/getApi"
+import DataProduct from "@/components/layouts/data-product"
 import PageContainer from "@/components/layouts/page-contain"
 import Shiping from "@/module/home/components/shiping"
 import DataCek from "@/module/shop/components/data-cek"
@@ -36,6 +37,7 @@ export default async function ShopDetails({ params }: any) {
       <DataInformasi />
       {product && <DataCek stars={product[0].rating.stars} count={product[0].rating.count} />}
       <Shiping />
+      <DataProduct />
     </PageContainer>
   )
 }

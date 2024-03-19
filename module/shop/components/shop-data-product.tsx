@@ -1,3 +1,4 @@
+import { setPriceToIdr } from "@/common/service/setPrice"
 import { Products } from "@/common/type/produt"
 import Image from "next/image"
 import Link from "next/link"
@@ -13,11 +14,6 @@ interface ProductProps {
 }
 
 export default function ShopProduct({ product, handleNext, handlePrev, disabledNext, disabledPrev, page, totalPage }: ProductProps) {
-  const formatPrice = new Intl.NumberFormat("id-ID", {
-    style: "currency",
-    currency: "IDR",
-  })
-
   return (
     <div className="col-span-2">
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
@@ -35,7 +31,7 @@ export default function ShopProduct({ product, handleNext, handlePrev, disabledN
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <p className="font-semibold text-[10px] md:text-sm">{formatPrice.format(item.price)}</p>
+                  <p className="font-semibold text-[10px] md:text-sm">{setPriceToIdr(item.price)}</p>
                   <p className=" font-semibold text-[8px] md:text-xs">{item.discount}</p>
                 </div>
               </div>

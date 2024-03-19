@@ -3,17 +3,12 @@ import DetailsDeskripsi from "./shop-details-deskripsi"
 import Image from "next/image"
 import { Products } from "@/common/type/produt"
 import Link from "next/link"
+import AddToCart from "@/components/layouts/add-to-cart"
+import { setPriceToIdr } from "@/common/service/setPrice"
 
 const playfair = Playfair_Display({ subsets: ["latin"] })
 
-export default function DataProductDetails({ product, randomProduct }: { product: any; randomProduct: Products[] }) {
-  const setPriceToIdr = (price: number) => {
-    return new Intl.NumberFormat("id-ID", {
-      style: "currency",
-      currency: "IDR",
-    }).format(price)
-  }
-
+export default async function DataProductDetails({ product, randomProduct }: { product: any; randomProduct: Products[] }) {
   const productStars = (stars: number) => {
     if (stars === 5) {
       return "⭐⭐⭐⭐⭐"
@@ -46,6 +41,7 @@ export default function DataProductDetails({ product, randomProduct }: { product
               <p className="my-2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor deleniti possimus qui optio voluptas est praesentium at, numquam quis magnam aliquam earum doloremque placeat quos quae ab voluptatibus, dolorum delectus.
               </p>
+              <AddToCart items={product[0]}>Add to cart</AddToCart>
             </div>
           </div>
 
