@@ -17,7 +17,7 @@ export default async function BestSeller() {
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
         {bestProduct.data.map((item: BestSeller) => (
-          <Link href={item.id} key={item.id}>
+          <Link href={`/shop/${item.id}`} key={item.id}>
             <Image src={item.image} alt={item.title} width={600} height={600} className="h-[200px] object-contain object-center w-full" />
             <div className="grid gap-3 p-4">
               <h1 className="truncate font-serif font-semibold text-xs md:text-lg">{item.title}</h1>

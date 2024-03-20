@@ -1,4 +1,6 @@
 "use client"
+import useCartStore, { CartStore } from "@/common/zustand/cart"
+import useStore from "@/common/zustand/useStore"
 import { Playfair_Display } from "next/font/google"
 import Link from "next/link"
 import { useState } from "react"
@@ -9,6 +11,12 @@ const playfair = Playfair_Display({ subsets: ["latin"] })
 
 export default function NavMenu({ children, navMenu }: { children: React.ReactNode; navMenu: any }) {
   const [menu, setMenu] = useState(false)
+
+  const cartStore = useStore<CartStore, CartStore>(useCartStore, (state) => state)
+
+  if (!cartStore) return <div></div>
+
+  const { cartItems } = cartStore
 
   const handleMenu = () => {
     setMenu(!menu)
@@ -35,7 +43,12 @@ export default function NavMenu({ children, navMenu }: { children: React.ReactNo
             <Link href={"/"}>
               <CiHeart size={25} />
             </Link>
-            <Link href={"/"}>
+            <Link href={"/checkout"} className="relative">
+              {cartItems.length > 0 && (
+                <div className="w-5 h-5 absolute  text-white flex items-center justify-center font-bold -top-3 -right-2  bg-red-600 rounded-full">
+                  <h1 className="text-[11px]">{cartItems.length}</h1>
+                </div>
+              )}
               <IoBagHandleOutline size={22} />
             </Link>
           </div>

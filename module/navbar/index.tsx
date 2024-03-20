@@ -18,7 +18,7 @@ const navMenu = [
   },
   {
     titlle: "Shop",
-    href: "/",
+    href: "/shop",
   },
   {
     titlle: "Our Story",

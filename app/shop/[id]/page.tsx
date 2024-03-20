@@ -37,7 +37,6 @@ export default async function ShopDetails({ params }: any) {
       <DataInformasi />
       {product && <DataCek stars={product[0].rating.stars} count={product[0].rating.count} />}
       <Shiping />
-      <DataProduct />
     </PageContainer>
   )
 }
